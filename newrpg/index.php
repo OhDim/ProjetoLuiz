@@ -67,7 +67,7 @@
                         <input type="number" name="vida" id="vida"><br>
                     </div>
                     <div>
-                        <label for="magiaDia">Qt de Magias por Dia<br></label>
+                        <label for="magiaDia">Magias por Dia<br></label>
                         <input type="number" name="magiaDia" id="magiaDia"><br>
                     </div>
                     
