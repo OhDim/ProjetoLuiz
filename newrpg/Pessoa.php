@@ -69,7 +69,7 @@ abstract class Pessoa
     {
         $this->dado = $dado;
     }
-    //getter and setter
+
     public function getNome()
     {
         return $this->nome;
@@ -92,11 +92,6 @@ abstract class Pessoa
         return $this->profissao;
     }
 
-    /**
-     * Set the value of profissao
-     *
-     * @return  self
-     */
     public function setProfissao($profissao)
     {
         $this->profissao = $profissao;
@@ -104,38 +99,26 @@ abstract class Pessoa
         return $this;
     }
 
-    /**
-     * Get the value of constituicao
-     */
+
     public function getConstituicao()
     {
         return $this->constituicao;
     }
 
-    /**
-     * Set the value of constituicao
-     *
-     * @return  self
-     */
+
     public function setConstituicao($constituicao)
     {
         $this->constituicao = $constituicao;        
         return $this;
     }
 
-    /**
-     * Get the value of destreza
-     */
+
     public function getDestreza()
     {
         return $this->destreza;
     }
 
-    /**
-     * Set the value of destreza
-     *
-     * @return  self
-     */
+
     public function setDestreza($destreza)
     {
         $this->destreza = $destreza;
@@ -143,19 +126,12 @@ abstract class Pessoa
         return $this;
     }
 
-    /**
-     * Get the value of forca
-     */
     public function getForca()
     {
         return $this->forca;
     }
 
-    /**
-     * Set the value of forca
-     *
-     * @return  self
-     */
+
     public function setForca($forca)
     {
         $this->forca = $forca;
@@ -163,19 +139,13 @@ abstract class Pessoa
         return $this;
     }
 
-    /**
-     * Get the value of inteligencia
-     */
+
     public function getInteligencia()
     {
         return $this->inteligencia;
     }
 
-    /**
-     * Set the value of inteligencia
-     *
-     * @return  self
-     */
+
     public function setInteligencia($inteligencia)
     {
         $this->inteligencia = $inteligencia;
@@ -183,19 +153,13 @@ abstract class Pessoa
         return $this;
     }
 
-    /**
-     * Get the value of carisma
-     */
+
     public function getCarisma()
     {
         return $this->carisma;
     }
 
-    /**
-     * Set the value of carisma
-     *
-     * @return  self
-     */
+
     public function setCarisma($carisma)
     {
         $this->carisma = $carisma;
@@ -203,19 +167,11 @@ abstract class Pessoa
         return $this;
     }
 
-    /**
-     * Get the value of sabedoria
-     */
     public function getSabedoria()
     {
         return $this->sabedoria;
     }
 
-    /**
-     * Set the value of sabedoria
-     *
-     * @return  self
-     */
     public function setSabedoria($sabedoria)
     {
         $this->sabedoria = $sabedoria;
@@ -223,23 +179,11 @@ abstract class Pessoa
         return $this;
     }
 
-    /**
-     * Get the value of profissao
-     */
-
-    /**
-     * Get the value of nivel
-     */ 
     public function getNivel()
     {
         return $this->nivel;
     }
 
-    /**
-     * Set the value of nivel
-     *
-     * @return  self
-     */ 
     public function setNivel(?int $nivel)
     {
         $this->nivel = $nivel;
@@ -247,19 +191,13 @@ abstract class Pessoa
         return $this;
     }
 
-    /**
-     * Get the value of dano
-     */ 
+
     public function getDano()
     {
         return $this->dano;
     }
 
-    /**
-     * Set the value of dano
-     *
-     * @return  self
-     */ 
+
     public function setDano($dano)
     {
         $this->dano = $dano;
