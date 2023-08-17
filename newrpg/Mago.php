@@ -83,9 +83,7 @@ class Mago extends Pessoa
           Magia {$this->getMagiaDia()}<br></p>");
   }
 
-  /**
-   * Get the value of arma
-   */ 
+
   function defeza()
   {
     if($this->getCategoriaArmadura()<8)
@@ -117,11 +115,7 @@ class Mago extends Pessoa
     return $this->arma;
   }
 
-  /**
-   * Set the value of arma
-   *
-   * @return  self
-   */ 
+
   public function setArma(?string $arma)
   {
     $this->arma = $arma;
@@ -129,19 +123,12 @@ class Mago extends Pessoa
     return $this;
   }
 
-  /**
-   * Get the value of categoriaArmadura
-   */ 
   public function getCategoriaArmadura()
   {    
     return $this->categoriaArmadura;
   }
 
-  /**
-   * Set the value of categoriaArmadura
-   *
-   * @return  self
-   */ 
+
   public function setCategoriaArmadura(?int $categoriaArmadura)
   {
     $this->categoriaArmadura = $categoriaArmadura;
@@ -149,19 +136,11 @@ class Mago extends Pessoa
     return $this;
   }
 
-  /**
-   * Get the value of pontosVida
-   */ 
   public function getPontosVida()
   {
     return $this->pontosVida;
   }
 
-  /**
-   * Set the value of pontosVida
-   *
-   * @return  self
-   */ 
   public function setPontosVida(?int $pontosVida)
   {
     $this->pontosVida = $pontosVida;
@@ -169,19 +148,12 @@ class Mago extends Pessoa
     return $this;
   }
 
-  /**
-   * Get the value of magiaDia
-   */ 
   public function getMagiaDia()
   {
     return $this->magiaDia;
   }
 
-  /**
-   * Set the value of magiaDia
-   *
-   * @return  self
-   */ 
+
   public function setMagiaDia(?int $magiaDia)
   {
     $this->magiaDia = $magiaDia;
