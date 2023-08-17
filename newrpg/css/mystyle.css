@@ -1,0 +1,77 @@
+.centro2{
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+input{
+    padding: 5px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 20%;
+}
+
+#cadastrar{
+    background: #bf6706;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 70px;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Trirong", serif;
+}
+
+.folha div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.folha{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(0, 0, 0, 0.524);
+    max-width: 1200px;
+    margin: 0 auto; /* This will horizontally center the div */
+    border-radius: 20px;
+    backdrop-filter: blur(8px)
+
+}
+
+label{
+    font-weight: bold;
+    color: white;
+}
+
+.cadastro{
+    padding-top: 20px;
+    backdrop-filter: blur(8px);
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.524);
+    
+}
+
+.p{
+    width: 600px;
+    margin: 160px;
+    background-color: rgba(0, 0, 0, 0.524);
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 30px;
+    backdrop-filter: blur(8px);
+    color: white;
+    font-family: "Trirong", serif;
+
+}
+
