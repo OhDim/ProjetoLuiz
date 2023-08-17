@@ -38,24 +38,9 @@
                
 
             );
-            
-            
-                            //$mago->maosFlamejantes();
+
             
             $mago->raioDeGelo();
-            // print("<input type='submit' value='MãosFlamejantes' name='btnMagia'>");
-            // if(isset($_POST['btnMagia']))  
-            // {
-            //     print("<br>{$mago->maosFlamejantes()}<br>");
-            // }  
-            
-            //$mago->maosFlamejantes();           
-            // $mago->maosFlamejantes();
-            // if (isset($_POST['btnMagia'])) {
-            //     $mago->maosFlamejantes();
-            // } else if (isset($_POST['btnStatus'])) {
-            //     $mago->statusAtual();
-            // }
             ?>
             
         </div>
